@@ -1,2 +1,2 @@
-# o-som-das-cores
+# O Som das Cores
 Importação p5js para GitHub
