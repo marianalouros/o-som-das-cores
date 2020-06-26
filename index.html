@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Som das Cores</title>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="p5.dom.js"></script>
+    <script src="sketch.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+</head>
+
+    <body>   
+    <!-- Processing sketch here -->
+    <div id='myContainer'>
+        <div id='questionmark' class='pleasework'>
+            <span data-toggle="modal" data-target="#exampleModal" class="fas fa-question-circle fa-2x"></span>
+        </div>
+    </div>
+        
+<!-- modal for help HIDE/SHOW -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">HELP</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p5>O Som das Cores é um la la la.</p5> <br>
+          <p4>&nbsp</p4><br>
+          INSTRUÇÕES <br>
+          1. lalala.<br>
+          2. lalala.<br>
+          3. lalal.<br>
+          4. lalal.<br>
+          5. lalala.<br>
+          6. lalal.<br>
+          7. lalal.<br>
+          8. lala.<br>  
+          9. lalal.<br>
+          10. lala.<br><br/>
+          <p4>&nbsp</p4><br>
+          CRÉDITOS<br>
+          Projeto desenvolvido por Mariana Louros | 2020<br>
+          UC: Sistemas Digitais Interativos | Prof. Rui Penha |<a href="https://www.esmae.ipp.pt" target="_blank" style="background-color:white">ESMAE</a><br>
+          Construído com <a href="https://p5js.org" target="_blank" style="background-color:white">P5.js</a><br>
+          Código disponível em <a href="https://github.com/marianalouros/o-som-das-cores" target="_blank" style="background-color:white">GitHub</a> <br>
+          Sons <a href="https://freesound.org/" target="_blank" style="background-color:white">Freesound</a><br>
+          <p4>&nbsp</p4><br>
+          <u>Músicas</u><br>
+          Branco <a href="https://www.youtube.com/watch?v=y5KUlg7tLiM" target="_blank" style="background-color:white">"White Christmas", Dundas</a><br>
+          Amarelo <a href="https://www.youtube.com/watch?v=m2uTFF_3MaA" target="_blank" style="background-color:white">"Yellow Submarine", The Beatles</a><br>
+          Laranja <a href="https://www.youtube.com/watch?v=Y0s3bCL1CrA" target="_blank" style="background-color:white">"The Love for Three Oranges", S. Prokofiev</a><br>
+          Vermelho <a href="https://www.youtube.com/watch?v=J7aPCbsyVBk" target="_blank" style="background-color:white">"Moulin Rouge!"</a><br>
+          Rosa <a href="https://www.youtube.com/watch?v=dtnNO5_Ao6U" target="_blank" style="background-color:white">"Pink Panther", Henry Manciniv</a><br>
+          Roxo <a href="https://www.youtube.com/watch?v=S6Y1gohk5-A" target="_blank" style="background-color:white">"Purple Rain", Prince</a><br>
+          Azul <a href="https://www.youtube.com/watch?v=4jVh5cZ_ZvM" target="_blank" style="background-color:white">"Rhapsody in Blue", G. Gershwin</a><br>
+          Verde <a href="https://www.youtube.com/watch?v=UYW6lp3oFHs" target="_blank" style="background-color:white">"Greensleeves"</a><br>
+          Castanho <a href="https://www.youtube.com/watch?v=x6zypc_LhnM&t=40s" target="_blank" style="background-color:white">"Charlie Brown Theme", Vince Guaraldi</a><br>
+          Cinzento <a href="https://www.youtube.com/watch?v=tYKl41e_hoU" target="_blank" style="background-color:white">"Nuages Gris", F. Liszt</a><br>
+          Preto <a href="https://www.youtube.com/watch?v=YP3W-E0OamU" target="_blank" style="background-color:white">"Black or White", Michael Jackson</a><br>
+          <u>Músicas Infantis</u><br>
+          Branco <a href="https://www.youtube.com/watch?v=wACF_4CO1JM" target="_blank" style="background-color:white">"Vem fazer bonecos de Neve"</a>Filme: Frozen (2013)<br>
+          Amarelo <a href="https://www.youtube.com/watch?v=Ge0F0EOsMzw" target="_blank" style="background-color:white">"Aqui tudo é mel"</a>Filme: Winnie the Pooh (2011)<br>
+          Laranja <a href="https://www.youtube.com/watch?v=5MdPJZUHLzQ" target="_blank" style="background-color:white">"Acreditar"</a>Filme: Sininho e o Tesouro Perdido (2009)<br>
+          Vermelho <a href="https://www.youtube.com/watch?v=uXPlzdrEeeE" target="_blank" style="background-color:white">"O Amor Vencerá"</a>Filme: Rei Leão 2 (1998)<br>
+          Rosa <a href="https://www.youtube.com/watch?v=40Qazbc11aQ&t=6s" target="_blank" style="background-color:white">"Ser uma princesa"</a>Filme: A Princesa e a Aldeã (2004)<br>
+          Roxo <a href="https://www.youtube.com/watch?v=3hMhvyWSuVA&t=62s" target="_blank" style="background-color:white">"Bibbidi-Bobbidi-Boo"</a>Filme: Cinderela (1950)<br>
+          Azul <a href="https://www.youtube.com/watch?v=OBQukUrDQdI&t=51s" target="_blank" style="background-color:white">"Aqui no mar"</a>Filme: A Pequena Sereia (1989)<br>
+          Verde <a href="https://www.youtube.com/watch?v=56q6TkQyc9k&t=70s" target="_blank" style="background-color:white">"Dois Sóis"</a>Filme: Tarzan (1999)<br>
+          Castanho <a href="https://www.youtube.com/watch?v=juqUdFGBR_I&t=75s" target="_blank" style="background-color:white">"Noites de Luar"</a>Filme: Aladdin (2019)<br>
+          Cinzento <a href="https://www.youtube.com/watch?v=2MPSU0bOAeo" target="_blank" style="background-color:white">"True Colors"</a>Filme: Trolls (2016)<br>
+          Preto <a href="https://www.youtube.com/watch?v=6kZQAI-hQPU" target="_blank" style="background-color:white">"Assalto ao Castelo"</a>Filme: A Bela e o Monstro (2017)<br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+
+</body>
+</html>
